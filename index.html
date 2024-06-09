@@ -3,38 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Thor For Hire</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Thor</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Pleasure</a></li>
-                <li><a href="#">Evil</a></li>
+                <li id="main-logo"><a href="#">Thor</a></li>
+                <li id="supporting-link"><a href="#">Business</a></li>
+                <li id="supporting-link"><a href="#">Pleasure</a></li>
+                <li id="supporting-link"><a href="#">Evil</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <h4>Thor for Hire</h4>
-        <p>Thor the God of Thunder has a lot of free time on his hands since saving the world from Thanos. Hire him for parties, to provide support at that business meeting or for general evil.</p>
-        <button>Book Thor</button>
+    <section class="content" id="main-content">
 
-        <img src="./images/odin.jpg" alt="Thor with Mjolnir over right shoulder, left hand on hip and surrounded by thunder. ">
+        <div id="contain-one">
+        <span>Thor for Hire</span>
+
+            <p>Thor the God of Thunder has a lot of free time on his hands since saving the world from Thanos. Hire him for parties, to provide support at that business meeting or for general evil.</p>
+            
+            <button>Book Thor</button> 
+
+        </div>
+
+        <div id="contain-two">
+            <img id="Thor"  src="./images/odin.jpg" alt="Thor with Mjolnir over right shoulder, left hand on hip and surrounded by thunder. ">
+        </div>
+       
+
     </section>
 
-    <section>
-        <h4>Hire The Revengers</h4>
-        <img src="./images/Loki.webp" alt="Loki in the middle of plotting evil.">
-        <p>Loki, Brother of Odin. Trickster God and perfectly willing to do evil for hire.</p>
-        <img src="./images/Hulk.jpg" alt="Hulk professional photo shoot">
-        <p>Hulk. Scientist by calm, hulking green giant by anger. Willing to smash when angry without any recollection. Perfect for hire when HOA decides to regulate azalea bushes.</p>
-        <img src="./images/Valkyrie.jpg" alt="Vaklyrie in full uniform">
-        <p>Valkyrie. Available for hire to judge anyone you consider unworthy. Toxic ex boyfriend, micro manager boss, etc. 35% discount included to hire another avenger to handle whomever Vaklyrie deems unworthy.</p>
-        <img src="./images/deadpool.jpg" alt="Deadpool stunning as always">
-        <p>Deadpool. Available for hire for general shenanigans, defacing property or just a hang out session. May bring stuffed unicorn along, don't make it weird.</p>
+    <section class="container">
+        <p>Hire the Revengers</p>
+
+        <div class="revengers">
+
+            <div class="block">
+                <img src="./images/Loki.webp" alt="Loki in the middle of plotting evil.">
+                <p>Loki, Brother of Odin. </p>
+                </div>
+                <div class="block">
+                <img src="./images/Hulk.jpg" alt="Hulk professional photo shoot">
+                <p>Hulk. Scientist by calm, hulking green giant by anger. </p>
+            </div>
+
+
+            <div class="block">
+                <img src="./images/Valkyrie.jpg" alt="Vaklyrie in full uniform">
+                <p>Valkyrie. Available for hire to judge anyone you consider unworthy. </p>
+            </div>
+
+
+            <div class="block">
+                <img src="./images/deadpool.jpg" alt="Deadpool stunning as always">
+                <p>Deadpool. Available for hire for general shenanigans, defacing property or just a hang out session. </p>
+            </div>
+
+        </div>
     </section>
+
+    <section class="container" id="block-quote">
+         <q>I may be Super, but I'm no hero.</q>
+            <blockquote>Deadpool</blockquote>
+    </section>
+
+    <section class="container" id="last-container">
+        <p>Book Thor or The Revengers!</p>
+        <p>Book today for petty revenge, general destruction. We don't judge!</p>
+        <button>Book now!</button>
+   </section>
+
+    <footer>
+        <span>Copyright &copy; The Odin Project 2024</span>
+    </footer>
 </body>
 </html>
