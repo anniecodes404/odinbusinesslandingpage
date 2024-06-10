@@ -1,107 +1,19 @@
+/* Main styling rules */
+
 body {
     display: flex; 
     height: 100vh; 
     flex-direction: column; 
 }
 
+a {
+   color: white;
+}
+
 header ul {
     display: flex; 
     width: 100%; 
     justify-content: space-between;
-}
-
-#main-logo a {
-    color: #f9faf8; 
-    font-size: 24px; 
-}
-
-button {
-    background-color: #3882f6;
-    color: white; 
-    border: 2px solid #3882f6; 
-    border-radius: 5px; 
-    text-align: center; 
-    width: 80px; 
-    height: 32px; 
-}
-
-section#main-content {
-    display: flex; 
-    background-color: #1f2937; 
-    color: #e5e7eb; 
-    font-size: 18px; 
-    align-items: center;
-}
-
-.content {
-    justify-content: center;
-    
-}
-
-#main-content span
- {
-    font-size: 48px;  
-}
-
-.container {
-    display: flex;  
-}
-
-div.revengers {
-    display: flex; 
-    margin-top: 100px; 
-    justify-content: center;
-    align-content: center;
-    gap: 50px; 
-}
-
-div.block {
-    width: 22%; 
-    justify-content: space-around;
-}
-
-div.block p {
-    width: 200px; 
-}
-
-img#Thor {
-    height: 400px; 
-    width: auto; 
-}
-
-img {
-    height: 200px; 
-    width: 200px; 
-}
-
-.revengers {
-    display: flex; 
-    justify-content: space-around;
-}
-
-section.container > p {
-    text-align: center; 
-    flex-direction: row;
-    justify-content: center ;
-    align-items: center;
-    }
-
-section.container#block-quote {
-    height: 300px; 
-    background-color: #e5e7eb;
-}
-header, footer {
-    background-color: #1F2937;
-}
-
-h4 {
-    font-size: 48px; 
-    font-weight: bolder;
-    color: #f9faf8; 
-}
-
-footer {
-    margin-top: auto; 
 }
 
 ul {
@@ -111,4 +23,132 @@ ul {
 a {
     text-decoration: none; 
 }
+
+
+/* Header & Footer */
+
+header, footer {
+    background-color: #1F2937;
+}
+
+footer {
+    margin-top: auto; 
+}
+
+
+/* Buttons */
+
+button {
+    background-color: #3882f6;
+    color: white; 
+    border: 2px solid #3882f6; 
+    border-radius: 5px; 
+    width: 80px; 
+    height: 32px; 
+}
+/* Sections General styling */
+
+.content {
+    justify-content: center;
+    
+}
+
+
+div.main-section {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 30%; 
+    margin: 0 auto;  
+}
+
+img#Thor {
+    height: 300px; 
+    width: auto; 
+    margin-right: 300px; 
+}
+
+#main-logo a {
+    color: #f9faf8; 
+    font-size: 24px; 
+}
+
+
+
+
+
+
+
+/* Section One */
+
+section.container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #1F2937;
+    color: #e5e7eb;  
+    font-size: 18px; 
+}
+
+.left {
+    margin-left: 530px; 
+    width: 50%; 
+}
+
+.right {
+    width: 55%; 
+}
+
+
+#main-content span
+ {
+    font-size: 48px;  
+}
+
+/* Section Two */
+.container-two p {
+    display: flex; 
+    margin-top: 100px; 
+    justify-content: center;
+    gap: 50px; 
+}
+
+div.revengers {
+    display: flex; 
+    margin-top: 100px; 
+    justify-content: center;
+    align-content: center;
+    gap: 50px; 
+}
+div.block {
+    width: 22%; 
+    justify-content: space-around;
+}
+
+div.block p {
+    width: 200px; 
+}
+
+img {
+    height: 200px; 
+    width: 200px; 
+}
+
+/* Section Three */
+
+/* Section Four */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
