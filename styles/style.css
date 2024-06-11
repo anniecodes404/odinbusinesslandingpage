@@ -67,9 +67,14 @@ img#Thor {
     margin-right: 300px; 
 }
 
-#main-logo a {
+#main-text a {
     color: #f9faf8; 
     font-size: 24px; 
+}
+
+#supporting-link a {
+    font-size: 18px; 
+    color: #e5e7eb; 
 }
 
 
@@ -80,10 +85,15 @@ img#Thor {
 
 /* Section One */
 
+.left span {
+    font-size: 36px; 
+    font-weight: bolder; 
+}
+
 section.container {
     display: flex; 
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-round; 
     background-color: #1F2937;
     color: #e5e7eb;  
     font-size: 18px; 
@@ -108,7 +118,7 @@ section.container {
 .container-two p {
     display: flex; 
     margin-top: 100px; 
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 50px; 
 }
 
@@ -135,7 +145,32 @@ img {
 
 /* Section Three */
 
+.container-three {
+    background-color: #e5e7eb;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+.container-three q {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937; 
+}
+
 /* Section Four */
+
+.call-to-action {
+    background-color: #3882f6;
+    color: white; 
+    height: 200px; 
+    width: 45%; 
+    display: flex; 
+
+}
+
+button#call-button {
+    border: 3px solid white; 
+}
 
 
 
