@@ -10,12 +10,6 @@ a {
    color: white;
 }
 
-header ul {
-    display: flex; 
-    width: 100%; 
-    justify-content: space-between;
-}
-
 ul {
     list-style: none; 
 }
@@ -27,8 +21,23 @@ a {
 
 /* Header & Footer */
 
+.parent {
+    display: flex; 
+    justify-content: space-between;
+}
+
+#main-text a {
+    color: #f9faf8; 
+    font-size: 24px;
+    margin: 0 auto; 
+    
+}
+
+
+
 header, footer {
     background-color: #1F2937;
+    clear: both; 
 }
 
 footer {
@@ -54,6 +63,16 @@ button {
 }
 
 
+
+
+
+
+
+
+
+/* Section One */
+
+
 div.main-section {
     display: flex; 
     flex-wrap: wrap; 
@@ -67,23 +86,11 @@ img#Thor {
     margin-right: 300px; 
 }
 
-#main-text a {
-    color: #f9faf8; 
-    font-size: 24px; 
-}
 
 #supporting-link a {
     font-size: 18px; 
     color: #e5e7eb; 
 }
-
-
-
-
-
-
-
-/* Section One */
 
 .left span {
     font-size: 36px; 
@@ -125,9 +132,9 @@ section.container {
 div.revengers {
     display: flex; 
     margin-top: 100px; 
-    justify-content: center;
-    align-content: center;
-    gap: 50px; 
+    /* justify-content: center;
+    align-content: center; */
+    width: 1000px; 
 }
 div.block {
     width: 22%; 
