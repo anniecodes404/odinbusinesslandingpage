@@ -1,4 +1,7 @@
 /* Main styling rules */
+* {
+    margin: 0; 
+}
 
 body {
     display: flex; 
@@ -130,11 +133,10 @@ section.container {
 }
 
 div.revengers {
+    margin: 20px 200px 0 200px; 
     display: flex; 
-    margin-top: 100px; 
-    /* justify-content: center;
-    align-content: center; */
-    width: 1000px; 
+    flex-direction: row; 
+    justify-content: flex-end;
 }
 div.block {
     width: 22%; 
@@ -146,17 +148,25 @@ div.block p {
 }
 
 img {
-    height: 200px; 
-    width: 200px; 
+    height: 170px; 
+    width: 170px; 
+    border: 2px solid black; 
+    border-radius: 2px; 
+    gap: 2px; 
 }
 
 /* Section Three */
 
-.container-three {
-    background-color: #e5e7eb;
-    display: block; 
-    margin: 0 auto; 
-    max-width: 100%; 
+section.container-three {
+}
+
+section.container-three {
+    display: inline-block; 
+    width: 100%; 
+    text-align: center; 
+   background-color: #e5e7eb; 
+   height: 800px; 
+
 }
 .container-three q {
     font-size: 36px;
