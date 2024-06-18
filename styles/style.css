@@ -24,9 +24,15 @@ a {
 
 /* Header & Footer */
 
-.parent {
+.container {
     display: flex; 
     justify-content: space-between;
+    text-align: center;
+}
+
+.left-wrapper,
+.right-wrapper {
+    display: inline-block; 
 }
 
 #main-text a {
@@ -48,6 +54,8 @@ footer {
 }
 
 
+
+
 /* Buttons */
 
 button {
@@ -55,23 +63,11 @@ button {
     color: white; 
     border: 2px solid #3882f6; 
     border-radius: 5px; 
-    width: 80px; 
+    width: 100px; 
     height: 32px; 
+    margin-top: 10px; 
 }
 /* Sections General styling */
-
-.content {
-    justify-content: center;
-    
-}
-
-
-
-
-
-
-
-
 
 /* Section One */
 
@@ -125,15 +121,21 @@ section.container {
 }
 
 /* Section Two */
-.container-two p {
-    display: flex; 
-    margin-top: 100px; 
-    justify-content: space-evenly;
-    gap: 50px; 
+
+#revenge4hire {
+    font-size: 36px; 
+    font-weight: bolder; 
+    color: #1f2937;
+    text-align: center;
 }
 
+.rvg-text {
+    text-align: center; 
+}
+
+
 div.revengers {
-    margin: 20px 200px 0 200px; 
+    margin: 10px 200px 0 200px; 
     display: flex; 
     flex-direction: row; 
     justify-content: flex-end;
@@ -158,20 +160,25 @@ img {
 /* Section Three */
 
 section.container-three {
-}
-
-section.container-three {
     display: inline-block; 
     width: 100%; 
     text-align: center; 
    background-color: #e5e7eb; 
-   height: 800px; 
+   height: 600px; 
+   justify-content: center; 
 
 }
 .container-three q {
     font-size: 36px;
     font-weight: lighter;
     color: #1f2937; 
+}
+
+blockquote,
+q
+ {
+    justify-content: center;
+    align-self: center;
 }
 
 /* Section Four */
